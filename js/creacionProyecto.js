@@ -13,11 +13,11 @@ let objetoProductos = [];
 
 //Aqui se agregan los eventos
 $btnAddProduct.addEventListener('click', agregaProducto);
-$inputNombreLeader.addEventListener('blur', obtenerDatosInput);
-$inputNombreProject.addEventListener('blur', obtenerDatosInput);
-$fechaInicio.addEventListener('blur', obtenerDatosInput);
-$fechaFin.addEventListener('blur', obtenerDatosInput);
-$description.addEventListener('blur', obtenerDatosInput);
+$inputNombreLeader.addEventListener('input', obtenerDatosInput);
+$inputNombreProject.addEventListener('input', obtenerDatosInput);
+$fechaInicio.addEventListener('input', obtenerDatosInput);
+$fechaFin.addEventListener('input', obtenerDatosInput);
+$description.addEventListener('input', obtenerDatosInput);
 
 //Aqui van las funciones
 
